@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BethanyPieShopHRM.ComponentLibrary.props" />
+</Project>

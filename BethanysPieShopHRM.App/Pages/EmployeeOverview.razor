@@ -1,0 +1,72 @@
+﻿@page "/EmployeeOverview"
+
+<PageTitle>@_pageTitle</PageTitle>
+
+<h2>Employee Overview</h2>
+
+@if (Employees == null)
+{
+    <p>Loading....</p>
+}
+else
+{
+    <h3>@_title</h3>
+
+    @*sending data to the component's property*@
+    <Message MessageContent="Greetings Earthling" />
+
+    <h4>@_triggerMsg</h4>
+    @*example of child calling a method of a parent*@
+    <Counter UpdateOverviewMessage="UpdateMessageOnOverview" />
+
+    <QuickViewPopUp Employee="_selectedEmployee" />
+
+    <div class="row">
+        @foreach (var emp in Employees)
+        {
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <ErrorBoundary>
+                    <ChildContent>
+                        <EmployeeCard Employee="emp" EmployeeQuickViewClickedFromCard="ShowQuickViewPopUpFromOverview" />
+                    </ChildContent>
+                    <ErrorContent>
+                        <p>Not good employee</p>
+                    </ErrorContent>
+                </ErrorBoundary>
+            </div>
+        }
+    </div>
+
+    <div>
+        The date & time is @_dateTime.
+    </div>
+
+    <div>
+        <button id="btnTest" @onclick="UpdateDateTime">
+            Update Time
+        </button>
+    </div>
+
+    <h4 class="mt-3">@_btnMessage</h4>
+
+    @for (int i = 0; i < 3; i++)
+    {
+        int buttonNumber = i;
+        <div class="p-3">
+
+            @*this is an example of how pass more than one arg*@
+            <button id="btnTest" @onclick="(e => UpdateBtnMessage(e, buttonNumber))">
+                Test Button @i
+            </button>
+        </div>
+    }
+
+    <div>
+    @code{ string test = "hello world"; }
+    <button @onclick="(e => MultipleArgsTest(e, test))">
+        Button w/ multiple args
+    </button>
+</div>
+}
+
+

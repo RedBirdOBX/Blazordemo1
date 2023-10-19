@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using Microsoft.AspNetCore.Components.Authorization
+
+@inject NavigationManager Navigation
+@inject SignOutSessionStateManager SignOutMgr
+
+<AuthorizeView>
+    <Authorized>
+        <h4>Hello, @context.User.Identity.Name</h4>
+        <a class="text-white text-decoration-none d-inline-block"
+            href="#"
+            @onclick="BeginSignOut">
+            Sign Out
+        </a>
+    </Authorized>
+    <NotAuthorized>
+        <h4>
+            <a class="text-white text-decoration-none" href="authentication/login">
+                Log in
+             </a>
+        </h4>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code
+{
+
+    private async Task BeginSignOut()
+    {
+        await SignOutMgr.SetSignOutState();
+        Navigation.NavigateTo("authentication/logout");
+    }
+}
+
+

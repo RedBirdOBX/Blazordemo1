@@ -1,0 +1,53 @@
+﻿@using Microsoft.AspNetCore.Components.WebAssembly.Services;
+@using System.Reflection;
+@inject LazyAssemblyLoader LazyAssemblyLoader
+
+
+<CascadingAuthenticationState>
+
+    <Router AppAssembly="@typeof(App).Assembly"
+        AdditionalAssemblies="@lazyLoadedAssemblies"
+        OnNavigateAsync="@OnNavigateAsync">
+
+        <Found Context="routeData">
+
+            <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
+                <Authorizing>
+                    <p>Determining Session State. Please wait...</p>
+                </Authorizing>
+                <NotAuthorized>
+                    <h1>You shall not pass</h1>
+                    <p>
+                        You are not authorized for this page. 
+                        You need to go to <a href="/authentication">authentication</a>
+                    </p>
+                </NotAuthorized>
+            </AuthorizeRouteView>
+            <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+        </Found>
+
+        <NotFound>
+            <PageTitle>Not found</PageTitle>
+            <LayoutView Layout="@typeof(MainLayout)">
+                <p role="alert">Sorry, there's nothing at this address.</p>
+            </LayoutView>
+        </NotFound>
+
+    </Router>
+
+</CascadingAuthenticationState>
+
+@code
+{
+    private List<Assembly> lazyLoadedAssemblies = new List<Assembly>();
+
+    private async Task OnNavigateAsync(NavigationContext args)
+    {
+        if (args.Path.Contains("employeedetail"))
+        {
+            var assemblies = await LazyAssemblyLoader
+                                    .LoadAssembliesAsync(new string[] { "BethanysPieShopHRM.ComponentLibrary.dll" });
+            lazyLoadedAssemblies.AddRange(assemblies);
+        }
+    }
+}

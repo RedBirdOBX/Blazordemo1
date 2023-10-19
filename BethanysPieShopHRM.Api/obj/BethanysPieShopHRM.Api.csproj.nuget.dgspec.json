@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Api\\BethanysPieShopHRM.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Api\\BethanysPieShopHRM.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Api\\BethanysPieShopHRM.Api.csproj",
+        "projectName": "BethanysPieShopHRM.Api",
+        "projectPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Api\\BethanysPieShopHRM.Api.csproj",
+        "packagesPath": "C:\\Users\\shane\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App.csproj": {
+                "projectPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App.csproj"
+              },
+              "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
+                "projectPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App.csproj",
+        "projectName": "BethanysPieShopHRM.App",
+        "projectPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App.csproj",
+        "packagesPath": "C:\\Users\\shane\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\BethanysPieShopHRM.ComponentLibrary.csproj": {
+                "projectPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\BethanysPieShopHRM.ComponentLibrary.csproj"
+              },
+              "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
+                "projectPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.18, 6.0.18]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\BethanysPieShopHRM.ComponentLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\BethanysPieShopHRM.ComponentLibrary.csproj",
+        "projectName": "BethanysPieShopHRM.ComponentLibrary",
+        "projectPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\BethanysPieShopHRM.ComponentLibrary.csproj",
+        "packagesPath": "C:\\Users\\shane\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
+                "projectPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
+        "projectName": "BethanysPieShopHRM.Shared",
+        "projectPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
+        "packagesPath": "C:\\Users\\shane\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

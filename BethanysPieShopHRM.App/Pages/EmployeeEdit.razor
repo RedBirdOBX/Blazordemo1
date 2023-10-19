@@ -1,0 +1,297 @@
+﻿@page "/employeeedit"
+@page "/employeeedit/{EmployeeId}"
+@using BethanysPieShopHRM.Shared.Domain;
+
+@if (!Saved)
+{
+    <section class="employee-edit">
+    <h1 class="page-title">Details for @Employee.FirstName @Employee.LastName</h1>
+    <EditForm Model="@Employee"
+        OnValidSubmit="@HandleValidSubmit"
+        OnInvalidSubmit="@HandleInvalidSubmit">
+
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="row mb-3">
+            <label for="FirstName"
+                   class="col-form-label col-md-3">
+                First Name:
+            </label>
+            <div class="col-md-8">
+                <InputText id="txtFirstName"
+                           class="form-control col-md-8"
+                           placeholder="First Name"
+                @bind-Value="@Employee.FirstName">
+            </InputText>
+            </div>
+
+            <ValidationMessage class="text-danger offset-md-3 col-md-8" For="@(() => Employee.FirstName)" />
+
+        </div>
+
+        <div class="row mb-3">
+            <label for="LastName"
+                class="col-form-label col-md-3">
+                Last Name:
+            </label>
+            <div class="col-md-8">
+                <InputText id="txtLastName"
+                            class="form-control col-md-8"
+                            placeholder="Last Name"
+                            @bind-Value="@Employee.LastName">
+                </InputText>
+            </div>
+
+            <ValidationMessage class="text-danger offset-md-3 col-md-8" For="@(() => Employee.LastName)" />
+
+        </div>
+
+            @if (Employee.EmployeeId == 0)
+            {
+                <div class="row mb-3">
+                    <label for="fileImage"
+                           class="col-12 col-sm-3">
+                        Select Image:
+                    </label>
+                    <div class="col-md-8">
+                        <InputFile OnChange="OnInputFileChange"></InputFile>
+                    </div>
+               </div>
+            }
+
+        <div class="row mb-3">
+            <label for="BirthDate"
+                   class="col-form-label col-md-3">
+                Birth Date:
+            </label>
+            <div class="col-md-8">
+                <InputDate id="txtBirthDate"
+                            class="form-control col-md-8"
+                            placeholder="Birth Date"
+                            @bind-Value="@Employee.BirthDate">
+                </InputDate>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="Email"
+                   class="col-form-label col-md-3">
+                Email:
+            </label>
+            <div class="col-md-8">
+                <InputText id="txtEmail"
+                           class="form-control col-md-8"
+                           placeholder="Email"
+                @bind-Value="@Employee.Email">
+                </InputText>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="Street"
+                   class="col-form-label col-md-3">
+                Street:
+            </label>
+            <div class="col-md-8">
+                <InputText id="txtStreet"
+                           class="form-control col-md-8"
+                           placeholder="Street"
+                @bind-Value="@Employee.Street">
+                </InputText>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="City"
+                   class="col-form-label col-md-3">
+                City:
+            </label>
+            <div class="col-md-8">
+                <InputText id="txtCity"
+                           class="form-control col-md-8"
+                           placeholder="City"
+                @bind-Value="@Employee.City">
+                </InputText>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="txtZipCode"
+                   class="col-form-label col-md-3">
+                Zip Code:
+            </label>
+            <div class="col-md-8">
+                <InputText id="txtZipCode"
+                           class="form-control col-md-8"
+                           placeholder="Zip Code"
+                @bind-Value="@Employee.Zip">
+                </InputText>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="Country"
+                   class="col-form-label col-md-3">
+                Country:
+            </label>
+            <div class="col-md-8">
+                <InputSelect id="ddlCountry"
+                    class="form-control col-md-8"
+                    @bind-Value="@Employee.CountryId">
+                    @foreach (var c in Countries)
+                    {
+                        <option value="@c.CountryId">@c.Name</option>
+                    }
+                </InputSelect>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="ddlJobCategory"
+                   class="col-form-label col-md-3">
+                Job Category:
+            </label>
+            <div class="col-md-8">
+                <InputSelect id="ddlJobCategory"
+                             class="form-control col-md-8"
+                @bind-Value="@Employee.JobCategoryId">
+                    @foreach (var cat in JobCategories)
+                    {
+                        <option value="@cat.JobCategoryId">@cat.JobCategoryName</option>
+                    }
+                </InputSelect>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="Phone"
+                   class="col-form-label col-md-3">
+                Phone:
+            </label>
+            <div class="col-md-8">
+                <InputText id="txtPhone"
+                           class="form-control col-md-8"
+                           placeholder="Phone"
+                @bind-Value="@Employee.PhoneNumber">
+                </InputText>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="Longitude"
+                   class="col-form-label col-md-3">
+                Longitude:
+            </label>
+            <div class="col-md-8">
+                <InputNumber id="txtLongitude"
+                           class="form-control col-md-8"
+                           placeholder="Longitude"
+                @bind-Value="@Employee.Longitude">
+                </InputNumber>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="Latitude"
+                   class="col-form-label col-md-3">
+                Latitude:
+            </label>
+            <div class="col-md-8">
+                <InputNumber id="txtLatitude"
+                             class="form-control col-md-8"
+                             placeholder="Latitude"
+                @bind-Value="@Employee.Latitude">
+                </InputNumber>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-8 offset-md-3">
+                <div class="form-check">
+                    <InputCheckbox id="chkSmoker"
+                                 class="form-check-input"
+                                 placeholder="Latitude"
+                         @bind-Value="@Employee.Smoker">
+                    </InputCheckbox>
+                    <label class="form-check-label">Smoker</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <InputRadioGroup Name="genderRadioGroup" @bind-Value="@Employee.Gender">
+                <label class="col-form-label col-md-3">Gender: </label>
+                <div class="col-md-8">
+                    @foreach (var gender in (Gender[])Enum.GetValues(typeof(Gender)))
+                    {
+                        <InputRadio Name="genderRadioGroup"
+                            Value="gender"
+                            class="form-check-input">
+                        </InputRadio>
+                        <label class="form-check-label">@gender</label>
+                        <br />
+                    }
+                </div>
+            </InputRadioGroup>
+        </div>
+
+        <div class="row mb-3">
+            <label for="maritalStatus" class="col-form-label col-md-3">Marital Status:</label>
+            <div class="col-md-8">
+                <InputSelect id="maritalStatus"
+                    class="form-select col-md-8"
+                    @bind-Value="@Employee.MaritalStatus">
+                    <option value="@(MaritalStatus.Single)">Single</option>
+                    <option value="@(MaritalStatus.Married)">Married</option>
+                    <option value="@(MaritalStatus.Other)">Other</option>
+                </InputSelect>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="joinedDate" class="col-form-label col-md-3">Joined on:</label>
+            <div class="col-md-8">
+                <InputDate id="txtJoinedDate"
+                    @bind-Value="@Employee.JoinedDate"
+                    class="form-control"></InputDate>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="exitDDate" class="col-form-label col-md-3">Exit Date:</label>
+            <div class="col-md-8">
+                <InputDate id="txtExitDate"
+                    @bind-Value="@Employee.ExitDate"
+                    class="form-control"></InputDate>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="txtComments" class="col-form-label col-md-3">Comments:</label>
+            <div class="col-md-8">
+                <InputTextArea id="txtComments"
+                    @bind-Value="@Employee.Comment"
+                    class="form-control"></InputTextArea>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary me-1">
+            Save Employee
+        </button>
+
+            @if (Employee.EmployeeId > 0)
+            {
+                <button type="button" class="btn btn-danger my-1" @onclick="@DeleteEmployee">
+                    Delete
+                </button>
+            }
+            <button type="button" class="btn btn-outline-primary ms-1" @onclick="@NavigateToOverview">Back to Overview</button>
+        </EditForm>
+</section>
+}
+else
+{
+    <div class="alert @StatusClass">@Message</div>
+    <button type="button" class="btn btn-outline-primary ms-1" @onclick="@NavigateToOverview">Back to Overview</button>
+}

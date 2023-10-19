@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BethanysPieShopHRM.App
+build_property.RootNamespace = BethanysPieShopHRM.App
+build_property.ProjectDir = C:\Data\Projects\Demos\BethanysPiesDemo\BethanysPieShopHRM.App\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Data\Projects\Demos\BethanysPiesDemo\BethanysPieShopHRM.App
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Components/AuthenticationStatus.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBdXRoZW50aWNhdGlvblN0YXR1cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Components/CountryCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb3VudHJ5Q2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Components/EmployeeCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFbXBsb3llZUNhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Components/InboxCounter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmJveENvdW50ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Components/Map.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNYXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Components/ProfilePicture.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9maWxlUGljdHVyZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Components/QuickViewPopUp.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xRdWlja1ZpZXdQb3BVcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Components/Widgets/EmployeeCountWidget.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXEVtcGxveWVlQ291bnRXaWRnZXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Components/Widgets/InboxWidget.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXEluYm94V2lkZ2V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Pages/Authentication.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Pages/EmployeeDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVEZXRhaWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Pages/EmployeeEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Pages/EmployeeOverview.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVPdmVydmlldy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Pages/PlugIns/Message.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGx1Z0luc1xNZXNzYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-5mb71cu944
+
+[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.App/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-thcm2l9sr1
