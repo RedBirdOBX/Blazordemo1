@@ -10,15 +10,19 @@ namespace BethanysPieShopHRM.App.Services
     {
         private readonly HttpClient? _httpClient;
         private readonly ILocalStorageService _localStorageService;
+        private readonly IConfiguration _config;
         
-        public EmployeeDataService(HttpClient httpClient, ILocalStorageService localStorageService)
+        public EmployeeDataService(HttpClient httpClient, ILocalStorageService localStorageService, IConfiguration config)
         {
             _httpClient = httpClient;
             _localStorageService = localStorageService;
+            _config = config;
         }
 
         public async Task<IEnumerable<Employee>> GetAllEmployees(bool refreshRequired = false)
         {
+            var ans = _config["Secret"];
+
             if (refreshRequired)
             {
                 bool employeeExpirationExists = await _localStorageService.ContainKeyAsync(LocalStorageConstants.EmployeesListExpirationKey);

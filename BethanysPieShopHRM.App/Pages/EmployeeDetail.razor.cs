@@ -16,11 +16,18 @@ namespace BethanysPieShopHRM.App.Pages
         [Inject]
         public IEmployeeDataService? EmployeeDataService { get; set; }
 
+        [Inject]
+        public IConfiguration Config { get; set; }
+
         public List<Marker> MapMarkers { get; set; } = new List<Marker>();
 
         protected override async Task OnInitializedAsync()
         {
             //Employee = MockDataService.Employees.Where(e => e.EmployeeId == int.Parse(EmployeeId)).FirstOrDefault();
+
+            var authority = (string)Config["Auth0:Authority"];
+            var clientId = (string)Config["Auth0:ClientId"];
+            var answer = Config["Message"];
 
             try
             {
@@ -40,12 +47,17 @@ namespace BethanysPieShopHRM.App.Pages
                         }
                     };
                 }
-
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
+
+        //protected override Task OnAfterRenderAsync(bool firstRender)
+        //{
+        //    var answer = Configuration["Secret"];
+        //    return null;
+        //}
     }
 }

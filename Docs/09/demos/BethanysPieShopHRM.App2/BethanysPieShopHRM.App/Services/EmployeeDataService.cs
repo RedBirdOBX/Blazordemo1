@@ -11,11 +11,14 @@ namespace BethanysPieShopHRM.App.Services
 
         private readonly HttpClient _httpClient;
         private readonly ILocalStorageService _localStorageService;
+        private readonly IConfiguration _configuration;
 
-        public EmployeeDataService(HttpClient httpClient, ILocalStorageService localStorageService)
+
+        public EmployeeDataService(HttpClient httpClient, ILocalStorageService localStorageService, IConfiguration configuration)
         {
             _httpClient = httpClient;
             _localStorageService = localStorageService;
+            _configuration = configuration;
         }
 
         public async Task<Employee> AddEmployee(Employee employee)
@@ -79,6 +82,9 @@ namespace BethanysPieShopHRM.App.Services
 
         public async Task<Employee> GetEmployeeDetails(int employeeId)
         {
+                var answer = _configuration["Secret"];
+
+
             return await JsonSerializer.DeserializeAsync<Employee>
                 (await _httpClient.GetStreamAsync($"api/employee/{employeeId}"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }

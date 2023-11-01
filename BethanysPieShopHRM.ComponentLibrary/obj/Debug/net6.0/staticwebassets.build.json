@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0QPlZM67soL8jfsDzAkDr0XOFHe0vHfV1ImOw7siKvM=",
+  "Hash": "4jtO8CLCdHXatcmmLaKG0SK1quif/3Dou5/sAX1eNQk=",
   "Source": "BethanysPieShopHRM.ComponentLibrary",
   "BasePath": "_content/BethanysPieShopHRM.ComponentLibrary",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BethanysPieShopHRM.ComponentLibrary\\wwwroot",
       "Source": "BethanysPieShopHRM.ComponentLibrary",
-      "ContentRoot": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
       "BasePath": "_content/BethanysPieShopHRM.ComponentLibrary",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\deliveryMap.js",
+      "Identity": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\deliveryMap.js",
       "SourceId": "BethanysPieShopHRM.ComponentLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
       "BasePath": "_content/BethanysPieShopHRM.ComponentLibrary",
       "RelativePath": "deliveryMap.js",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\deliveryMap.js"
     },
     {
-      "Identity": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\layers.png",
+      "Identity": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\layers.png",
       "SourceId": "BethanysPieShopHRM.ComponentLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
       "BasePath": "_content/BethanysPieShopHRM.ComponentLibrary",
       "RelativePath": "leaflet/images/layers.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\leaflet\\images\\layers.png"
     },
     {
-      "Identity": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\layers-2x.png",
+      "Identity": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\layers-2x.png",
       "SourceId": "BethanysPieShopHRM.ComponentLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
       "BasePath": "_content/BethanysPieShopHRM.ComponentLibrary",
       "RelativePath": "leaflet/images/layers-2x.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\leaflet\\images\\layers-2x.png"
     },
     {
-      "Identity": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\marker-icon.png",
+      "Identity": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\marker-icon.png",
       "SourceId": "BethanysPieShopHRM.ComponentLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
       "BasePath": "_content/BethanysPieShopHRM.ComponentLibrary",
       "RelativePath": "leaflet/images/marker-icon.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\leaflet\\images\\marker-icon.png"
     },
     {
-      "Identity": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\marker-icon-2x.png",
+      "Identity": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\marker-icon-2x.png",
       "SourceId": "BethanysPieShopHRM.ComponentLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
       "BasePath": "_content/BethanysPieShopHRM.ComponentLibrary",
       "RelativePath": "leaflet/images/marker-icon-2x.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\leaflet\\images\\marker-icon-2x.png"
     },
     {
-      "Identity": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\marker-shadow.png",
+      "Identity": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\marker-shadow.png",
       "SourceId": "BethanysPieShopHRM.ComponentLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
       "BasePath": "_content/BethanysPieShopHRM.ComponentLibrary",
       "RelativePath": "leaflet/images/marker-shadow.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\leaflet\\images\\marker-shadow.png"
     },
     {
-      "Identity": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\leaflet.css",
+      "Identity": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\leaflet.css",
       "SourceId": "BethanysPieShopHRM.ComponentLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
       "BasePath": "_content/BethanysPieShopHRM.ComponentLibrary",
       "RelativePath": "leaflet/leaflet.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\leaflet\\leaflet.css"
     },
     {
-      "Identity": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\leaflet.js",
+      "Identity": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\leaflet.js",
       "SourceId": "BethanysPieShopHRM.ComponentLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\",
       "BasePath": "_content/BethanysPieShopHRM.ComponentLibrary",
       "RelativePath": "leaflet/leaflet.js",
       "AssetKind": "All",

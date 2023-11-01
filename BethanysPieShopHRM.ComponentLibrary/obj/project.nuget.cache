@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tK/5zBi6ccvdVnPBwwOu2pQ89aFLv44pCitJQAZ0Gf/ZDu8zRPS6UZBI8C8LAfD6e7jR7lQVu2va3mH4W1GIPg==",
+  "dgSpecHash": "sJTrhG+dboESd0UpLPijm6g+PcNPg6Bs702nCX90ls0a6Koz7N+r8BfS9wIQHYdHfSxGI+8GXiMA5DfNz5R8Xg==",
   "success": true,
-  "projectFilePath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\BethanysPieShopHRM.ComponentLibrary.csproj",
+  "projectFilePath": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\BethanysPieShopHRM.ComponentLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shane\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.23\\microsoft.aspnetcore.authorization.6.0.23.nupkg.sha512",
     "C:\\Users\\shane\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.23\\microsoft.aspnetcore.components.6.0.23.nupkg.sha512",

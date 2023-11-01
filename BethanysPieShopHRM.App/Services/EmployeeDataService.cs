@@ -11,11 +11,13 @@ namespace BethanysPieShopHRM.App.Services
     {
         private readonly HttpClient _httpClient;
         private readonly ILocalStorageService _localStorageService;
+        private readonly IConfiguration _configuration;
 
-        public EmployeeDataService(HttpClient httpClient, ILocalStorageService localStorageService)
+        public EmployeeDataService(HttpClient httpClient, ILocalStorageService localStorageService, IConfiguration configuration)
         {
             _httpClient = httpClient;
             _localStorageService = localStorageService;
+            _configuration = configuration;
         }
 
 
@@ -56,6 +58,7 @@ namespace BethanysPieShopHRM.App.Services
             {
                 var results = new List<Employee>();
                 bool empListKeyExists = await _localStorageService.ContainKeyAsync(LocalStorageConstants.EmployeesListKey);
+                empListKeyExists = false;
 
                 if (empListKeyExists)
                 {
@@ -118,10 +121,10 @@ namespace BethanysPieShopHRM.App.Services
         {
             try
             {
-                // why is this throwing error?
+                var answer = _configuration["Secret"];
 
-                var results2 = await JsonSerializer.DeserializeAsync<Employee>
-                    ( await _httpClient.GetStreamAsync($"api/employee/{employeeId}"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
+                //var results2 = await JsonSerializer.DeserializeAsync<Employee>
+                //    ( await _httpClient.GetStreamAsync($"api/employee/{employeeId}"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
 
                 var stream = await _httpClient.GetStreamAsync($"api/employee/{employeeId}");
 

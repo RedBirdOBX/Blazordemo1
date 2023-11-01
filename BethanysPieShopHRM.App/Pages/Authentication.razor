@@ -9,6 +9,7 @@
 <RemoteAuthenticatorView Action="@Action">
     <LogOut>
         @{
+            // https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/configuration?view=aspnetcore-6.0
             var authority = (string)Configuration["Auth0:Authority"];
             var clientId = (string)Configuration["Auth0:ClientId"];
 

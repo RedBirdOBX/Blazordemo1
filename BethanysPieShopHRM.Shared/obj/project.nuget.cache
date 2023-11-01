@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9vBgFwlMRRSRfrCPmsbP80ylEZKIr18v2ewk8SCVOv8045aSBLbeAIq672F1GZW5rZmBEQ29CVgDb+dDmqFrFw==",
+  "dgSpecHash": "p4p+7f4fHWuzT1APd0NflIv5UrJHeHrbhdyLqrVmlf2LxILhj+5NPnFAV7iQ0IRO8WBL/JwqvSnN05LXR4jdcQ==",
   "success": true,
-  "projectFilePath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
+  "projectFilePath": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

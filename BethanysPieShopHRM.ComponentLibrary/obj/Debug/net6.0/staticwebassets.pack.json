@@ -1,35 +1,35 @@
 {
   "Files": [
     {
-      "Id": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\deliveryMap.js",
+      "Id": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\deliveryMap.js",
       "PackagePath": "staticwebassets\\deliveryMap.js"
     },
     {
-      "Id": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\layers-2x.png",
+      "Id": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\layers-2x.png",
       "PackagePath": "staticwebassets\\leaflet\\images\\layers-2x.png"
     },
     {
-      "Id": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\layers.png",
+      "Id": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\layers.png",
       "PackagePath": "staticwebassets\\leaflet\\images\\layers.png"
     },
     {
-      "Id": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\marker-icon-2x.png",
+      "Id": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\marker-icon-2x.png",
       "PackagePath": "staticwebassets\\leaflet\\images\\marker-icon-2x.png"
     },
     {
-      "Id": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\marker-icon.png",
+      "Id": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\marker-icon.png",
       "PackagePath": "staticwebassets\\leaflet\\images\\marker-icon.png"
     },
     {
-      "Id": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\marker-shadow.png",
+      "Id": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\images\\marker-shadow.png",
       "PackagePath": "staticwebassets\\leaflet\\images\\marker-shadow.png"
     },
     {
-      "Id": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\leaflet.css",
+      "Id": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\leaflet.css",
       "PackagePath": "staticwebassets\\leaflet\\leaflet.css"
     },
     {
-      "Id": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\leaflet.js",
+      "Id": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\wwwroot\\leaflet\\leaflet.js",
       "PackagePath": "staticwebassets\\leaflet\\leaflet.js"
     },
     {

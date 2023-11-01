@@ -569,11 +569,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\BethanysPieShopHRM.ComponentLibrary.csproj",
+      "projectUniqueName": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\BethanysPieShopHRM.ComponentLibrary.csproj",
       "projectName": "BethanysPieShopHRM.ComponentLibrary",
-      "projectPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\BethanysPieShopHRM.ComponentLibrary.csproj",
+      "projectPath": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\BethanysPieShopHRM.ComponentLibrary.csproj",
       "packagesPath": "C:\\Users\\shane\\.nuget\\packages\\",
-      "outputPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.ComponentLibrary\\obj\\",
+      "outputPath": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.ComponentLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -593,8 +593,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
-              "projectPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
+            "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
+              "projectPath": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
             }
           }
         }
@@ -630,7 +630,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

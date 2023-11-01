@@ -1,0 +1,11 @@
+C:\Data\Projects\Demos\BethanysPiesDemo\Docs\09\demos\BethanysPieShopHRM.App2\BethanysPieShopHRM.Shared\bin\Debug\net6.0\BethanysPieShopHRM.Shared.deps.json
+C:\Data\Projects\Demos\BethanysPiesDemo\Docs\09\demos\BethanysPieShopHRM.App2\BethanysPieShopHRM.Shared\bin\Debug\net6.0\BethanysPieShopHRM.Shared.dll
+C:\Data\Projects\Demos\BethanysPiesDemo\Docs\09\demos\BethanysPieShopHRM.App2\BethanysPieShopHRM.Shared\bin\Debug\net6.0\BethanysPieShopHRM.Shared.pdb
+C:\Data\Projects\Demos\BethanysPiesDemo\Docs\09\demos\BethanysPieShopHRM.App2\BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Projects\Demos\BethanysPiesDemo\Docs\09\demos\BethanysPieShopHRM.App2\BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.AssemblyInfoInputs.cache
+C:\Data\Projects\Demos\BethanysPiesDemo\Docs\09\demos\BethanysPieShopHRM.App2\BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.AssemblyInfo.cs
+C:\Data\Projects\Demos\BethanysPiesDemo\Docs\09\demos\BethanysPieShopHRM.App2\BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.csproj.CoreCompileInputs.cache
+C:\Data\Projects\Demos\BethanysPiesDemo\Docs\09\demos\BethanysPieShopHRM.App2\BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.dll
+C:\Data\Projects\Demos\BethanysPiesDemo\Docs\09\demos\BethanysPieShopHRM.App2\BethanysPieShopHRM.Shared\obj\Debug\net6.0\refint\BethanysPieShopHRM.Shared.dll
+C:\Data\Projects\Demos\BethanysPiesDemo\Docs\09\demos\BethanysPieShopHRM.App2\BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.pdb
+C:\Data\Projects\Demos\BethanysPiesDemo\Docs\09\demos\BethanysPieShopHRM.App2\BethanysPieShopHRM.Shared\obj\Debug\net6.0\ref\BethanysPieShopHRM.Shared.dll

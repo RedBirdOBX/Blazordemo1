@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {}
+    "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
+    "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
+        "projectUniqueName": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
         "projectName": "BethanysPieShopHRM.Shared",
-        "projectPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
+        "projectPath": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
         "packagesPath": "C:\\Users\\shane\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\Projects\\Demos\\BethanysPiesDemo\\BethanysPieShopHRM.Shared\\obj\\",
+        "outputPath": "C:\\Data\\Projects\\GitHubRepos\\BlazorDemo1\\Blazordemo1\\BethanysPieShopHRM.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

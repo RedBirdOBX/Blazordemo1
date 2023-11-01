@@ -9,17 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = BethanysPieShopHRM.ComponentLibrary
 build_property.RootNamespace = BethanysPieShopHRM.ComponentLibrary
-build_property.ProjectDir = C:\Data\Projects\Demos\BethanysPiesDemo\BethanysPieShopHRM.ComponentLibrary\
+build_property.ProjectDir = C:\Data\Projects\GitHubRepos\BlazorDemo1\Blazordemo1\BethanysPieShopHRM.ComponentLibrary\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Data\Projects\Demos\BethanysPiesDemo\BethanysPieShopHRM.ComponentLibrary
+build_property.MSBuildProjectDirectory = C:\Data\Projects\GitHubRepos\BlazorDemo1\Blazordemo1\BethanysPieShopHRM.ComponentLibrary
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.ComponentLibrary/Map2.razor]
+[C:/Data/Projects/GitHubRepos/BlazorDemo1/Blazordemo1/BethanysPieShopHRM.ComponentLibrary/Map2.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFwMi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Data/Projects/Demos/BethanysPiesDemo/BethanysPieShopHRM.ComponentLibrary/_Imports.razor]
+[C:/Data/Projects/GitHubRepos/BlazorDemo1/Blazordemo1/BethanysPieShopHRM.ComponentLibrary/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

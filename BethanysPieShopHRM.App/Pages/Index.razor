@@ -1,5 +1,7 @@
 ﻿@page "/"
 
+@inject IConfiguration Configuration
+
 <h1>Welcome</h1>
 
 <h3>Welcome subtext</h3>
@@ -11,3 +13,5 @@
 }
 
 <CountryCard />
+
+<p>[-- @Configuration["Message"] --]</p>
