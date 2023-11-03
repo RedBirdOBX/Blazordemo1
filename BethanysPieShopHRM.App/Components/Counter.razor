@@ -1,0 +1,25 @@
+﻿<div class="border border-primary p-1 mt-2">
+
+    <h4>Counter</h4>
+
+    <p role="status">Current count: @currentCount</p>
+
+    <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+    <div>
+        <p><small>Example of triggering an event of a parent component.</small></p>
+        <button id="btnParentEventTest" @onclick="UpdateOverviewMessage">
+            Trigger Parent Event
+        </button>
+    </div>
+
+</div>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

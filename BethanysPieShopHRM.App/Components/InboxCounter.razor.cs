@@ -13,7 +13,7 @@ namespace BethanysPieShopHRM.App.Components
 
         protected override void OnInitialized()
         {
-            MessageCount = 47; // new Random().Next(10);
+            MessageCount = 47; 
             ApplicationState.NumberOfMessages = MessageCount;
         }
     }

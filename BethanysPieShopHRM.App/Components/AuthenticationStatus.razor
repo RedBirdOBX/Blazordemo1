@@ -26,19 +26,10 @@
 
 @code
 {
-
-    // protected async override Task OnInitializedAsync()
-    // {
-    //     var authority = (string)Configuration["Auth0:Authority"];
-    //     var clientId = (string)Configuration["Auth0:ClientId"];
-    // }
-
-
     private async Task BeginSignOut()
     {
         await SignOutMgr.SetSignOutState();
         Navigation.NavigateTo("authentication/logout");
     }
 }
-
 

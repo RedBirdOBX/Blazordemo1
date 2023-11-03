@@ -1,4 +1,6 @@
-﻿using BethanysPieShopHRM.App.Models;
+﻿using BethanysPieShopHRM.App.Services;
+using Microsoft.AspNetCore.Components;
+
 
 namespace BethanysPieShopHRM.App.Components.Widgets
 {
@@ -6,9 +8,15 @@ namespace BethanysPieShopHRM.App.Components.Widgets
     {
         public int EmployeeCounter { get; set; }
 
-        protected override void OnInitialized()
+        [Inject]
+        public IEmployeeDataService EmployeeDataService { get; set; }
+
+        protected override async Task OnInitializedAsync()
         {
-            EmployeeCounter = MockDataService.Employees.Count;
+            //EmployeeCounter = MockDataService.Employees.Count;
+
+            int empCount = (await EmployeeDataService.GetAllEmployees()).Count();
+            EmployeeCounter = empCount;
         }
     }
 }

@@ -12,15 +12,23 @@
 }
 else
 {
-    <h3>@_title</h3>
+    <h4>@_title</h4>
 
-    @*sending data to the component's property*@
-    <Message MessageContent="Greetings Earthling" />
+    <p>&nbsp;</p>
 
-    <h4>@_triggerMsg</h4>
+    <p class="small m-0">sending Hello World as an arg to the component's property</p>
+    <Message MessageContent="Hello World!" />
+
+    <p>&nbsp;</p>
+
+    <h4>Test message: @_triggerMsg</h4>
+
     @*example of child calling a method of a parent*@
     <Counter UpdateOverviewMessage="UpdateMessageOnOverview" />
 
+    <p>&nbsp;</p>
+
+    <p><small>[placeholder for modal]</small></p>
     <QuickViewPopUp Employee="_selectedEmployee" />
 
     <div class="row">
@@ -39,35 +47,45 @@ else
         }
     </div>
 
+    <hr />
+
     <div>
         The date & time is @_dateTime.
     </div>
 
     <div>
-        <button id="btnTest" @onclick="UpdateDateTime">
+        <button class="btn btn-info" id="btnTest" @onclick="UpdateDateTime">
             Update Time
         </button>
     </div>
 
+    <hr />
+
     <h4 class="mt-3">@_btnMessage</h4>
 
+    <p>Loop of buttons showing that we can pass event arsg of select button to single event handler...</p>
     @for (int i = 0; i < 3; i++)
     {
         int buttonNumber = i;
         <div class="p-3">
 
             @*this is an example of how pass more than one arg*@
-            <button id="btnTest" @onclick="(e => UpdateBtnMessage(e, buttonNumber))">
+            <button class="btn btn-primary" id="btnTest" @onclick="(e => UpdateBtnMessage(e, buttonNumber))">
                 Test Button @i
             </button>
         </div>
     }
 
     <div>
-    @code{ string test = "hello world"; }
-    <button @onclick="(e => MultipleArgsTest(e, test))">
+    @code{ string test = "hello world... from the button click"; }
+    <button class="btn btn-warning" @onclick="(e => MultipleArgsTest(e, test))">
         Button w/ multiple args
     </button>
+
+    <p>&nbsp;</p>
+
+    <p>&nbsp;</p>
+
 </div>
 }
 

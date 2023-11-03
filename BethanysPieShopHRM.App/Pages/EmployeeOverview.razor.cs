@@ -15,7 +15,7 @@ namespace BethanysPieShopHRM.App.Pages
 
 
         // you can use a private field or a public prop to send data to UI.
-        private string _title = "This is the employee overview page.";
+        private string _title = "This is the employee overview page. This text is coming from the code-behind.";
         private string _dateTime = DateTime.Now.ToString("F");
         private string _btnMessage = string.Empty;
         private string _triggerMsg = string.Empty;

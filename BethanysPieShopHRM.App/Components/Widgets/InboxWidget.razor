@@ -1,13 +1,14 @@
-﻿<h3>Inbox</h3>
+﻿<div class="border border-primary p-1 mt-2">
 
-@if (@MessageCount > 0)
-{
-    <h4>You currently have @MessageCount questions from employees!</h4>
-}
-else
-{
-    <h4>No questions from employees! All good!</h4>
-}
+    <p>Inbox Widget</p>
 
-<br />
-<br />
+    @if (@MessageCount > 0)
+    {
+        <h4>You currently have @MessageCount questions from employees!</h4>
+    }
+    else
+    {
+        <h4>No questions from employees! All good!</h4>
+    }
+
+</div>

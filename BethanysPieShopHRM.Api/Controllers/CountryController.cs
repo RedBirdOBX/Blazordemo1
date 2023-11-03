@@ -1,5 +1,4 @@
 ﻿using BethanysPieShopHRM.Api.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -7,7 +6,6 @@ namespace BethanysPieShopHRM.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
     public class CountryController : Controller
     {
         private readonly ICountryRepository _countryRepository;
@@ -19,17 +17,16 @@ namespace BethanysPieShopHRM.Api.Controllers
             _configuration = configuration;
         }
 
-        // GET: api/<controller>
         [HttpGet]
         public IActionResult GetCountries()
         {
-            // this works....
-            //var answer = _configuration["Secret"];
+            // example of pulling from an appSettings using Configuration svc
+            // https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/dependency-injection?view=aspnetcore-6.0
+            var answer = _configuration["Secret"];
 
             return Ok(_countryRepository.GetAllCountries());
         }
 
-        // GET api/<controller>/5
         [HttpGet("{id}")]
         public IActionResult GetCountryById(int id)
         {

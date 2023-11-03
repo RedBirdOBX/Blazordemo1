@@ -5,8 +5,12 @@
         </div>
         <div class="card-body employee-card text-center">
             <div class="mb-3">
-                @*<img src="@($"https://gillcleerenpluralsight.blob.core.windows.net/person/{Employee.EmployeeId}.jpg")" class="employee-img rounded-circle img-fluid" />*@
-                <img src="@Employee.ImageName" class="employee-img rounded-circle img-fluid" />
+
+                @* pulling from obj and db *@
+                @* <img src="@Employee.ImageName" class="employee-img rounded-circle img-fluid" /> *@
+
+                <img src="@($"https://gillcleerenpluralsight.blob.core.windows.net/person/{Employee.EmployeeId}.jpg")" class="img-fluid rounded-circle employee-detail-img" />
+
             </div>
             <button class="btn btn-primary btn-sm mb-1"
                 @onclick="@(async () => await EmployeeQuickViewClickedFromCard.InvokeAsync(Employee))">
@@ -16,14 +20,15 @@
             @*link*@
             <a href="@($"employeedetail/{Employee.EmployeeId}")"
                 class="btn btn-outline-primary btn-sm">
-                Full Details
+                Full Details (simple)
             </a>
 
-@*            <button class="btn btn-outline-warning btn-sm"
+            @* button *@
+            <button class="btn btn-outline-warning btn-sm"
                 @onclick="(() => NavigateToDetails(Employee))">
-                Full Details w/ code
+                Full Details (code)
             </button>
-*@
+
             <a href="@($"employeeedit/{Employee.EmployeeId}")"
                 class="btn btn-outline-primary">
                 Edit Details

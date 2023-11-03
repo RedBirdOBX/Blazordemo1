@@ -11,11 +11,12 @@ namespace BethanysPieShopHRM.App.Pages
 
         public Index()
         {
-            // har coded but could be dynamic
+            // hard coded but could be dynamic
             Widgets = new List<Type>
             {
                 typeof(EmployeeCountWidget),
-                typeof(InboxWidget)
+                typeof(InboxWidget),
+                typeof(CountryListWidget)
             };
         }
 

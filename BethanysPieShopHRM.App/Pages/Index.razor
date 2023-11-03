@@ -4,7 +4,16 @@
 
 <h1>Welcome</h1>
 
-<h3>Welcome subtext</h3>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque
+    habitant morbi tristique senectus et netus et malesuada. Ullamcorper velit sed
+    ullamcorper morbi tincidunt ornare massa eget. Gravida cum sociis natoque penatibus et
+    magnis dis parturient. Sed libero enim sed faucibus.
+    Risus in hendrerit gravida rutrum quisque non.
+    Dui accumsan sit amet nulla. Blandit massa enim nec dui nunc mattis. Augue lacus viverra vitae congue eu.
+    Quis varius quam quisque id diam vel. Diam donec adipiscing tristique risus nec.
+</p>
 
 
 @foreach (var widget in Widgets)
@@ -12,6 +21,5 @@
     <DynamicComponent Type="widget"></DynamicComponent>
 }
 
-<CountryCard />
-
-<p>[-- @Configuration["Message"] --]</p>
+<p>&nbsp;</p>
+<p>Here's an example of pulling a config setting right in a razor page using the Configuration Service: @Configuration["Message"]</p>

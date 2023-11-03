@@ -1,5 +1,5 @@
 ﻿using BethanysPieShopHRM.Shared.Domain;
-using System.Configuration;
+
 
 namespace BethanysPieShopHRM.Api.Models
 {
@@ -16,7 +16,8 @@ namespace BethanysPieShopHRM.Api.Models
 
         public IEnumerable<Country> GetAllCountries()
         {
-            // this also works
+            // example of pulling from an appSettings using Configuration svc
+            // https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/dependency-injection?view=aspnetcore-6.0
             var answer = _configuration["Secret"];
 
             return _appDbContext.Countries;

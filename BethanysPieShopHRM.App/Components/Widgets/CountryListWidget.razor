@@ -1,0 +1,11 @@
+﻿<div class="border border-primary p-1 mt-2">
+
+    <p>Countries Widget</p>
+    <p><small>Contains example of calling API directly thru code, not using middleware/service.</small></p>
+    <ul>
+        @foreach (var country in Countries)
+        {
+            <li>@country.Name</li>
+        }
+    </ul>
+</div>

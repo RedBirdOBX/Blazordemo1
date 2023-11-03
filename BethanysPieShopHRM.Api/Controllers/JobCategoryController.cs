@@ -1,14 +1,11 @@
 ﻿using BethanysPieShopHRM.Api.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace BethanysPieShopHRM.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
 
     public class JobCategoryController : Controller
     {
@@ -19,15 +16,12 @@ namespace BethanysPieShopHRM.Api.Controllers
             _jobCategoryRepository = jobCategoryRepository;
         }
 
-
-        // GET: api/<controller>
         [HttpGet]
         public IActionResult GetJobCategories()
         {
             return Ok(_jobCategoryRepository.GetAllJobCategories());
         }
 
-        // GET api/<controller>/5
         [HttpGet("{id}")]
         public IActionResult GetJobCategoryById(int id)
         {
